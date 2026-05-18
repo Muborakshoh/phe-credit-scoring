@@ -111,9 +111,9 @@ docker run --rm \
 
 | Method | Accuracy | ROC-AUC | Avg latency |
 |---|---|---|---|
-| Plaintext (LR) | ~0.998 | ~1.000 | < 1 ms |
-| **PHE via Mesa Agents** | ~0.998 | ~1.000 | ~4060 ms |
-| Federated (PHE aggr.) | ~0.998 | ~1.000 | < 1 ms |
+| Plaintext (LR) | ~0.72 | ~0.715 | ~0.038 ms |
+| **PHE via Mesa Agents** | ~0.72 | ~0.715 | ~4060 ms |
+| Federated (PHE aggr.) | ~0.66 | ~0.721 | ~0.002 ms |
 
 PHE adds **zero accuracy loss**. Latency breakdown:
 
@@ -253,9 +253,9 @@ docker run --rm \
 
 | Метод | Accuracy | ROC-AUC | Средняя задержка |
 |---|---|---|---|
-| Plaintext (LR) | ~0.998 | ~1.000 | < 1 мс |
-| **PHE via Mesa Agents** | ~0.998 | ~1.000 | ~4060 мс |
-| Federated (PHE aggr.) | ~0.998 | ~1.000 | < 1 мс |
+| Plaintext (LR) | ~0.72 | ~0.715 | ~0.038 мс |
+| **PHE via Mesa Agents** | ~0.72 | ~0.715 | ~4060 мс |
+| Federated (PHE aggr.) | ~0.66 | ~0.721 | ~0.002 мс |
 
 PHE **не снижает точность модели**. Поэтапная задержка:
 
